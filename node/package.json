@@ -1,5 +1,5 @@
 {
-  "name": "node",
+  "name": "node example",
   "version": "1.0.12",
   "description": "Example Node.Js app",
   "main": "index.js",
