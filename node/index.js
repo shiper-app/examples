@@ -7,6 +7,11 @@ app.get("/", (req, res) => {
   res.send(process.env);
 });
 
+app.get("/headers", (req, res) => {
+  console.log("Got a Request - Headers");
+  res.send(req.headers);
+});
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port} v1.0.22`);
 });
